@@ -1,0 +1,127 @@
+.logout-link:hover {
+  color: #9d8df1;
+}
+
+.welcome-link {
+  background-color: #9d8df1;
+  color: white;
+  padding: 12px;
+}
+
+.welcome-link:hover {
+  background-color: #7565c6;
+  box-shadow: 4px 3px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  padding: 100px 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.guess-section #img-output {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.guess-section #predictions-output {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.separator {
+  border: none;
+  height: 5px;
+  width: 100%;
+  background: #9D8DF1;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  width: 600px;
+}
+
+.input-section .sendbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 48px;
+  padding: 4px 24px;
+}
+
+.input-section .sendbar .send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.input-section .sendbar .send-btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.sendbar .image-cont {
+  position: relative;
+  display: inline-block;
+}
+
+.sendbar .image-cont #image-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sendbar .image-ico {
+  width: 40px;
+  height: 40px;
+}
+
+.sendbar .image-text {
+  font-size: 1.1rem;
+  color: #898989;
+}
+
+.sendbar #image-input {
+  display: none;
+}
+
+.photo-cont {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .photo-cont {
+    position: relative;
+    display: inline-block;
+  }
+
+  .photo-cont #photo-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .sendbar .photo-ico {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sendbar .photo-text {
+    font-size: 1.2em;
+  }
+
+  .sendbar #photo-input {
+    display: none;
+  }
+}

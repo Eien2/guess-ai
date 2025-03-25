@@ -1,0 +1,41 @@
+.logout-link:hover {
+  color: #9d8df1;
+}
+
+.welcome-link {
+  background-color: #9d8df1;
+  color: white;
+  padding: 12px;
+}
+
+.welcome-link:hover {
+  background-color: #7565c6;
+  box-shadow: 4px 3px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 450px;
+  min-height: 100%;
+}
+
+#modes-section .mode-btn {
+  border: none;
+  background-color: #9d8df1;
+  padding: 12px;
+  transition: 0.25s ease-in-out;
+}
+
+#modes-section .mode-btn:hover {
+  background-color: #7565c6;
+  box-shadow: 4px 3px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+#modes-section .mode-link {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
